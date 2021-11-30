@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>praktikum 6.3</title>
+    <style>
+        .container {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            width: 800px;
+            height: 450px;
+            background-color: rgb(56, 29, 38);
+            margin: 10px auto;
+        }
+
+        .container .main {
+            display: flex;
+            flex-direction: row;
+            flex: 5;
+            justify-content: space-between;
+        }
+
+        .header {
+            background-color: rgb(101, 193, 255);
+            flex: 1;
+            margin: 10px 10px 0 10px;
+        }
+
+        .footer {
+            background-color: rgb(101, 193, 255);
+            flex: 1;
+            margin: 0 10px 10px 10px;
+        }
+
+        .aside {
+            background-color: rgb(124, 164, 209);
+            flex: 1;
+            margin: 10px 0 10px 10px;
+        }
+
+        .article {
+            background-color: rgb(93, 240, 232);
+            flex: 3;
+            margin: 10px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            
+        }
+
+        .gambar img {
+            width: 150px;
+            height: 160px;
+            background-color: rgb(173, 117, 126);
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="main">
+            <div class="aside">Aside</div>
+            <div class="article">
+                <div class="gambar gambar1"><img src="rajab.jpeg" alt="" /></div>
+                <div class="gambar gambar2"><img src="rajab.jpeg" alt="" /></div>
+                <div class="gambar gambar3"><img src="rajab.jpeg" alt="" /></div>
+            </div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+
+</html>
